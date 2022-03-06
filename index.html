@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/game.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game</title>
+</head>
+
+<body>
+
+    <div class="results">
+        <div>
+            Siz: <span class="score you"></span>
+        </div>
+        <div>
+            Bot: <span class="score bot"></span>
+        </div>
+    </div>
+    <div class="scores">
+        <span class="myScore">
+            0
+        </span>
+        <span class="botScore">
+            0
+        </span>
+    </div>
+    <div class="win">
+        <span class="is-win"></span>
+    </div>
+
+    <div class="all-buttons">
+        <button class="select" data-selection="rock">✊</button>
+        <button class="select" data-selection="scissors">✌️</button>
+        <button class="select" data-selection="paper">🤚</button>
+    </div>
+
+    <div class="options">
+        <button class="reset">Tozalash</button>
+        <button class="start">Boshlash</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
